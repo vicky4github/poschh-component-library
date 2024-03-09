@@ -1,4 +1,4 @@
-import { Button } from './Button';
+import { Button } from './Button/Button';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 export default {
@@ -13,33 +13,19 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
+    onClick : ()=>{console.log('default')},
+    onMouseEnter : ()=>{console.log('default hover')},
+
+    
   },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary = {
   args: {
-    primary: true,
-    label: 'Button',
-  },
-};
-
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
+    type: 'primary',
+    label: 'Button text',
+    onMouseEnter:()=>{console.log('hello')},
+    onClick : ()=>{console.log('clicked')},
   },
 };
