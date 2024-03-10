@@ -7,16 +7,24 @@ import {Tooltip} from "@nextui-org/react";
 /**
  * type UI component for user interactions
  */
-export const Button = ({ type, backgroundColor, fontColor, size, label, onMouseEnter, onClick,toolTipText,isToolTip ,state, classes,variant,border,borderColor}) => {
+export const Button = ({ type, backgroundColor, fontColor, size, label, onMouseEnter, onClick,toolTipText,isToolTip ,state, classes,variant,border,borderColor,isCircular}) => {
   console.log(isToolTip);
   console.log(toolTipText);
   return (
-    <>
+    <>{isCircular?(
+      <Tooltip content={toolTipText} isDisabled={!isToolTip}>
+          <NextButton variant={variant} color={type} className = {classes} style={{background:backgroundColor,color:fontColor,border:border,borderColor:borderColor,paddingBottom:'50%',paddingTop:'50%',borderRadius:'50%'}} size = {setSize(size)} onClick={onClick} onMouseEnter={onMouseEnter} isLoading={toggleButtonState(state,'isLoading') } isDisabled={toggleButtonState(state, 'isDisabled')}>
+          {renderLabel(state,label)}
+          </NextButton>
+      </Tooltip>
+    ):(
       <Tooltip content={toolTipText} isDisabled={!isToolTip}>
           <NextButton variant={variant} color={type} className = {classes} style={{background:backgroundColor,color:fontColor,border:border,borderColor:borderColor}} size = {setSize(size)} onClick={onClick} onMouseEnter={onMouseEnter} isLoading={toggleButtonState(state,'isLoading') } isDisabled={toggleButtonState(state, 'isDisabled')}>
           {renderLabel(state,label)}
           </NextButton>
       </Tooltip>
+    )}
+      
     </>
   );
 };
@@ -51,6 +59,7 @@ Button.propTypes = {
   variant:  PropTypes.oneOf(['solid', 'bordered' , 'light' , 'flat' , 'faded' , 'shadow' , 'ghost']),
   border: PropTypes.string,
   borderColor: PropTypes.string,
+  isCircular: PropTypes.bool,
   
 };
 
@@ -66,6 +75,7 @@ Button.defaultProps = {
   variant: 'solid',
   border: null,
   borderColor: null,
+  isCircular: false,
   
 };
 

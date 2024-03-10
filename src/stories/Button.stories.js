@@ -27,5 +27,27 @@ export const Primary = {
     label: 'Button text',
     onMouseEnter:()=>{console.log('hello')},
     onClick : ()=>{console.log('clicked')},
+    isCircular: false,
+  },
+};
+
+export const Secondary = {
+  args: {
+    type: 'secondary',
+    label: 'Button text',
+    onMouseEnter:()=>{console.log('hello')},
+    onClick : ()=>{console.log('clicked')},
+    isCircular: false,
+  },
+};
+
+
+export const Circular = {
+  args: {
+    type: 'default',
+    label: 'Circular button text',
+    onMouseEnter:()=>{console.log('hello')},
+    onClick : ()=>{console.log('clicked')},
+    isCircular: true,
   },
 };
