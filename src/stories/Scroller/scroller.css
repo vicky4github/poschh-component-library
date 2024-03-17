@@ -1,0 +1,16 @@
+.rfm-marquee{
+    display: flex !important;
+    flex-direction: row  !important;
+    justify-content: space-between  !important;
+    margin: 4% !important;
+    padding: 0% !important;
+}
+
+.rfm-initial-child-container{
+    display: flex !important;
+    min-width: auto !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 85% !important;
+    justify-content: space-between !important;
+}
