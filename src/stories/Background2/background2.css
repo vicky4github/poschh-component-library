@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.css-1qq744x{
+  width: 80vw;
+  height: 50vh;
+  padding: 2%;
+}
+
+.container {
+  width: 50vw;
+  height: 45vh;
+  overflow: hidden;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 50vw;
+    height: 50vh;
+    padding: 2em 4em 2em 4em;
+    gap: 2em;
+  }
+  .button {
+    height: 48px;
+    border-radius: 30px;
+    padding: 0em 2em;
+  }
+  .label {
+    font-size: 2em;
+  }
+  .caption {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 800px) {
+  .caption::after {
+    content: 'OSS dev collective  for the creative space';
+  }
+  .label::after {
+    content: 'PMNDRS';
+  }
+  .container {
+    width: 50vw;
+    height: 50vh;
+    padding: 2em 3em 2em 3em;
+    gap: 2em;
+  }
+  .button {
+    height: 36px;
+    border-radius: 30px;
+    padding: 0em 1.25em;
+    font-size: 0.7em;
+  }
+  .label {
+    font-size: 1em;
+  }
+  .caption {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    gap: 0.5em;
+  }
+  .caption::after {
+    content: 'OSS dev collective';
+  }
+  .container {
+    width: 50vw;
+    height: 50vh;
+    padding: 2em 2em 2em 2em;
+    gap: 2em;
+  }
+}
