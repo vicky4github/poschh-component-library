@@ -10,7 +10,7 @@ export const Layout1 = () => {
   const [width, setWidth] = React.useState(200);
   const [height, setHeight] = React.useState(200);
   return (
-    <div className='dency flex flex-col lg:w-[900px] h-[400px] md:w-[600px] sm:[400px]  border-2 border-black p-4'>
+    <div className='flex flex-col lg:w-[900px] h-[400px] md:w-[600px] sm:[400px]  border-2 border-black p-4'>
         <Draggable bounds='parent'>
             <ResizableBox  className='box bg-red-500' width={200}  height={200} draggableOpts={{grid: [25, 25]}}>
                <span>Hello!</span>       

@@ -1,0 +1,46 @@
+/* components/Navbar.module.css */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    min-height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1rem;
+    background-color: #212121;
+    color: white;
+  }
+  
+  .logo img {
+    width: auto;
+    height: 50px;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .reqButton {
+    color:#E5E1E9;
+    background-color: #212121;
+    border: 2px solid #E5E1E9 !important;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 4px;
+  }
+  .salesButton {
+    color:#2F285F;
+    background-color: #C7BFFF;
+    border: 2px solid #C7BFFF;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 4px;
+  }
+  .button:hover {
+    text-decoration: underline;
+  }
+  
