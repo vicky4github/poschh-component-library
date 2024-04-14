@@ -1,5 +1,5 @@
 import React from "react";
-import './card.css';
+import './card1.css';
 import {Card, CardHeader, CardBody, CardFooter, Button} from "@nextui-org/react";
 
 export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, list, buttonText, isSelected }) => {

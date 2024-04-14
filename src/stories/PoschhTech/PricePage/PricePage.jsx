@@ -1,6 +1,6 @@
 import React from "react";
 import './pricepage.css';
-import { PCard } from "../Card/Card";
+import { PCard } from "../Card1/Card1";
 
 export const PricePage = () => {
 
