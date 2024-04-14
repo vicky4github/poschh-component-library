@@ -21,7 +21,7 @@ export const Layout1 = () => {
             <li className='list-disc'>Lorem ipsum dolor sit amet, consectetur</li>
             <li className='list-disc'>Lorem ipsum dolor sit amet, consectetur</li>
           </ul>
-          <Button className='bg-[#C7BFFF] p-6 w-[30%] mx-8 rounded-3xl  text-[#2F285F]'><p className='lg:text-[18px] text-[13px]'>Unlock Your Insights</p></Button>
+          <Button className='bg-[#C7BFFF] p-6 w-[35%] mx-8 rounded-3xl  text-[#2F285F]'><p className='lg:text-[16px] text-[13px]'>Unlock Your Insights</p></Button>
         </div>
         
        </div>

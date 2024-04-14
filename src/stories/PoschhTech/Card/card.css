@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#card{
+    border: 2px solid transparent;
+    /* border-style: solid; */
+    border-image: linear-gradient(to right, #6F6DDE, #63A5D6) 1;
+    margin-left: 50px;
+    overflow: hidden;
+  }
