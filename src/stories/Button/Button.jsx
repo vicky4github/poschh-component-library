@@ -8,8 +8,6 @@ import {Tooltip} from "@nextui-org/react";
  * type UI component for user interactions
  */
 export const Button = ({ type, backgroundColor, fontColor, size, label, onMouseEnter, onClick,toolTipText,isToolTip ,state, classes,variant,border,borderColor,isCircular}) => {
-  console.log(isToolTip);
-  console.log(toolTipText);
   return (
     <>{isCircular?(
       <Tooltip content={toolTipText} isDisabled={!isToolTip}>

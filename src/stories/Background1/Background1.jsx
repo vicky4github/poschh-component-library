@@ -19,7 +19,6 @@ export const Background1 = ({ color, backgroundColor, position = [0, 0, 2.5], fo
 )
 
 function Backdrop(backgroundColor) {
-  debugger;
   const shadows = useRef()
   useFrame((state, delta) => easing.dampC(shadows.current.getMesh().material.color, backgroundColor, 0.10, delta))
   return (
