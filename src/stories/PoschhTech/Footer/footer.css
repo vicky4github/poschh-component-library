@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+Button{
+    color: #F2F4F7;
+}

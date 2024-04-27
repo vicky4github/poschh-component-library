@@ -12,7 +12,17 @@ export const Layout1 = () => {
        <NavigationBar />
        <div className='bg-[#212121] flex lg:flex-row flex-col  items-center w-[90%] min-h-fit m-auto py-12'>
        <div className='lg:w-[40%] lg:order-2 w-[60%]  mx-auto flex items-center'>
-          <img className='w-[90%]' src='/chain.png'></img>
+          <img className='w-[90%] hover:w-[100%]' src='/chain.png'></img>
+          <svg class='filter' xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <filter id="blurFilter">
+              <feGaussianBlur stdDeviation="4.5"></feGaussianBlur>
+              <feColorMatrix type="matrix" values="
+                      1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 19 -9"></feColorMatrix>
+            </filter>
+          </svg> 
         </div>
         <div className='flex flex-col lg:w-[60%] lg:order-1 w-[90%] p-4 lg:text-[18px] text-[14px] justify-center text-[#E5E1E9]'>
           <p className='w-[90%] mx-auto lg:text-[50px] text-[36px] font-medium'>Unmatched scale and security</p>

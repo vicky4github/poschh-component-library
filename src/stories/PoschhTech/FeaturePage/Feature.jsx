@@ -15,13 +15,13 @@ export const Feature = () => {
           body="Unify data management and empower data-driven decisions. Automate data collection, generate custom reports (reduce reporting time by 40%), and boost productivity by 20%. All while ensuring unparalleled security and scalability."
           header="Streamline Your Workflow"
           height={300}
-          width={300}
+          width={200}
         />
         <BCard
           body="Safeguard your data and empower growth. Industry-leading security and a 99.9% uptime guarantee ensure peace of mind. Our scalable platform adapts to your success, letting you focus on core business."
           header="Unparalleled Security and Scalability"
           height={300}
-          width={300}
+          width={200}
         />
         </div>
         <div className="flex flex-col h-[100%] justify-between">
@@ -29,13 +29,13 @@ export const Feature = () => {
           body="Uncover customer trends and preferences to boost satisfaction by 25%. Leverage this knowledge for laser-focused marketing campaigns, driving a 10% conversion increase."
           header="Gain Deep Customer Insights"
           height={300}
-          width={300}
+          width={200}
         />
         <BCard
           body="Track KPIs and respond to market changes 50% faster. Our clear data visualization tools translate complex data into actionable dashboards, empowering you to make informed decisions with confidence."
           header="Make Data-Driven Decisions"
           height={300}
-          width={300}
+          width={200}
         />
         </div>
         <div className="flex flex-col h-[100%] justify-between">
@@ -43,13 +43,13 @@ export const Feature = () => {
           body="Unify data management and empower data-driven decisions. Automate data collection, generate custom reports (reduce reporting time by 40%), and boost productivity by 20%. All while ensuring unparalleled security and scalability."
           header="Streamline Your Workflow"
           height={300}
-          width={300}
+          width={200}
         />
         <BCard
           body="Safeguard your data and empower growth. Industry-leading security and a 99.9% uptime guarantee ensure peace of mind. Our scalable platform adapts to your success, letting you focus on core business."
           header="Unparalleled Security and Scalability"
           height={300}
-          width={300}
+          width={200}
         />
         </div>
       </div>

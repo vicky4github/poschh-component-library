@@ -1,5 +1,7 @@
-import './navbar.css'
+import { Link, Button } from '@nextui-org/react';
+import './navbar.css';
 
+export const NavigationBar = () => {
   return (
     <nav class='navbar'>
       <div class='logo'>
