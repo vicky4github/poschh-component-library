@@ -6,8 +6,8 @@ export const ContactUs = () => {
   return (
     <>
       <div className='h-[400px] w-[1000px] bg-[#262433]'>
-      <img  className= 'opacity-25 w-[100px] h-[140px] absolute bottom-0 left-0' src='/ball1.png'></img>
-      <img  className='opacity-25  w-[100px] h-[120px] absolute top-0 right-0' src='/ball2.png'></img>
+      <img  className= 'floating-animation1 opacity-25 w-[80px] object-fit absolute bottom-0 left-0' src='/ball1.png'></img>
+      <img  className='floating-animation2 opacity-25  w-[100px] h-[120px] absolute top-0 right-0' src='/ball2.png'></img>
       </div>
       <div className='h-[400px] w-[1000px] absolute inset-0 flex items-center justify-center'>
         <div className='w-[60%] h-[80%] grid items-center'>

@@ -1,9 +1,10 @@
 import { Link, Button } from '@nextui-org/react';
 import './navbar.css';
+import { Dropdown } from '../Dropdown/Dropdown';
 
 export const NavigationBar = () => {
   return (
-    <nav class='navbar'>
+    <nav class='navbar h-[500px] '>
       <div class='logo'>
         <Link href="/">
           <a>
@@ -12,6 +13,7 @@ export const NavigationBar = () => {
         </Link>
       </div>
       <div class='buttons'>
+        <Dropdown />
         <Link href="/page1">
          <Button class='reqButton'>Request a quote</Button>
         </Link>

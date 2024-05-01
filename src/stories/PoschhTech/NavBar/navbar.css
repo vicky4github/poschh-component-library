@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* components/Navbar.module.css */
 
 .navbar {
@@ -34,7 +37,7 @@
   }
   .salesButton {
     color:#2F285F;
-    background-color: #C7BFFF;
+    background-color: #C7BFFF !important;
     border: 2px solid #C7BFFF;
     border-radius: 35px;
     padding: 10px;
