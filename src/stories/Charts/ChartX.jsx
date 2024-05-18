@@ -1,7 +1,7 @@
 
 import React from 'react';
 // import '../node_modules/react-vis/dist/style.css';
-import {XYPlot, LineSeries,XAxis,YAxis,ArcSeries} from 'react-vis';
+import {XYPlot,XAxis,YAxis,ArcSeries} from 'react-vis';
 
 const PI = Math.PI;
 
