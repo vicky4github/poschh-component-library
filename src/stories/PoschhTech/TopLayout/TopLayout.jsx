@@ -1,16 +1,14 @@
 import React from 'react';
 import './toplayout.css';
 import {Button} from "@nextui-org/react";
-import { NavigationBar } from '../NavBar/NavBar';
 /**
  * type UI component for user interactions
  */
 export const Layout1 = () => {
  
   return (
-    <div className='flex flex-col justify-start min-h-fit lg:w-[1000px]  md:w-[600px] sm:[400px]'>
-       <NavigationBar />
-       <div className='bg-[#212121] flex lg:flex-row flex-col  items-center w-[90%] min-h-fit m-auto py-12'>
+    <div className='flex flex-col justify-start min-h-fit w-screen bg-[#212121]'>
+       <div className='bg-[#212121] flex lg:flex-row flex-col  items-center w-[80%] min-h-fit m-auto py-12'>
        <div className='lg:w-[40%] lg:order-2 w-[60%]  mx-auto flex items-center'>
           <img className='w-[90%] hover:w-[100%]' src='/chain.png'></img>
           <svg class='filter' xmlns="http://www.w3.org/2000/svg" version="1.1">
