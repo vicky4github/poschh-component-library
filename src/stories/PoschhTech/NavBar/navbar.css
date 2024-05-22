@@ -8,11 +8,8 @@
     flex-direction: row;
     width: 90%;
     min-height: 50px;
-    margin-top: 20px;
     justify-content: space-between;
     align-items: center;
-    
-    padding: 1rem;
     background-color: #212121;
     color: white;
   }

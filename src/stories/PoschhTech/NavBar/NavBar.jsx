@@ -4,7 +4,7 @@ import { Dropdown } from '../Dropdown/Dropdown';
 
 export const NavigationBar = () => {
   return (
-    <nav class='navbar h-[60px] w-[100%] '>
+    <nav class='navbar h-[80px] mx-auto sticky top-0 px-12 py-auto'>
       <div class='logo'>
         <Link href="/">
           <a>

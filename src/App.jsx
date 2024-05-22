@@ -11,7 +11,7 @@ function App() {
     <>
       <NextUIProvider>
       <div className='w-screen h-screen'>
-        <NavigationBar className='h-[10%]' />
+        <NavigationBar  />
         <Layout1 />
         </div>
       </NextUIProvider>
