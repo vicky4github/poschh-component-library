@@ -8,7 +8,7 @@ return(<>
    <div className='w-screen h-screen'>
         <NavigationBar  />
         <Layout1 />
-        {/* <PricePage/> */}
+        <PricePage/>
         <Footer/>
     </div>
 
