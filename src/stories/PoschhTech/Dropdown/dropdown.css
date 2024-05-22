@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.dropdown-dency a{
+color:#E5E1E9 !important
+}
+.dropdown-dency a:hover{
+    color:#2F285F !important
+    }

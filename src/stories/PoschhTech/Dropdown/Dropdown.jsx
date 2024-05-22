@@ -25,7 +25,7 @@ const callsToAction = [
 
 export const Dropdown = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center min-h-screen dropdown-dency">
       <Popover className="relative">
         <Popover.Button className="inline-flex items-center gap-x-1 bg-[#212121] text-md font-semibold h-[50px] w-[150px] leading-6 text-[#E5E1E9]">
           <span className='mr-2'>Solutions</span>
