@@ -4,7 +4,14 @@
 
 
 
+#card {
+    /* Other styles for your card */
+    transition: transform 0.3s ease; /* Add a transition for the transform property */
+}
 
+#card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
 .gradient-border {
     position: relative;
     margin-left: 50px;

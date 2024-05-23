@@ -5,12 +5,12 @@ import { PCard } from "../Card1/Card1";
 export const PricePage = () => {
 
   return (
-    <div className="w-[100%] h-auto bg-[#272626]">
-      <div className="w-[100%] flex flex-col items-center justify-center my-8">
-        <div className=""><p className="font-semibold text-[56px] text-[#F2F4F7] ">A plan that's tailor-made for you!</p></div>
-        <div className="w-[70%] text-center "><p className="text-[18px] text-[#F2F4F7]" >Unleash the potential of data with our tailored analytical tools, crafted to suit your unique needs.</p></div>
+    <div className="w-screen h-auto pb-8 bg-[#272626] flex flex-col items-center">
+      <div className="w-[100%] flex flex-col items-center justify-center items-center my-8">
+        <div className=""><p className="font-semibold text-[56px] text-center md:text-[48px] text-[#F2F4F7] ">A plan that's tailor-made for you!</p></div>
+        <div className="w-[70%] text-center "><p className="text-[18px] md:[16px] text-[#F2F4F7]" >Unleash the potential of data with our tailored analytical tools, crafted to suit your unique needs.</p></div>
       </div>
-      <div className="flex flex-row mt-16">
+      <div className="flex lg:flex-row md:flex-row sm:flex-col w-[90%] mt-16 items-center justify-center">
       <PCard
           buttonText="Get Started"
           header="Basic"

@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-Button{
+#footer Button{
     color: #F2F4F7;
+    border: 0 !important;
+    outline: 0 !important;
 }
-
+#footer Button:hover,
+#footer Button:focus,
+#footer Button:active{
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none !important; 
+    background: transparent !important;
+}

@@ -6,7 +6,7 @@ export const Footer = () => {
  
   return (
     <>
-      <div className='h-[450px] w-[100%] bg-[#141318] relative '>
+      <div id='footer' className='h-[450px] w-[100%] bg-[#141318] relative '>
        <FooterX/>
       </div>
     </>
@@ -19,12 +19,12 @@ const FooterX=()=>{
 </div>
 
 <div className='h-[450px] w-[100%] absolute  inset-0 flex items-center '>
-<div className='flex flex-col w-[35%] h-[90%] justify-between p-8'>
+<div className='flex flex-col w-[35%] h-[80%] justify-between p-8 mr-12'>
  <div>
    <img  className= 'w-[12%] my-2' src='/logo.png'></img>
    <p className='text-[16px] text-[#F2F4F7] font-medium'>Empowering professionals with analytical tool expertise for data-driven success.</p>
  </div>
- <div className='flex flex-row w-[40%] justify-between'>
+ <div className='flex flex-row w-[25%] justify-between'>
    <FaInstagram className='fill-[#FFFFFF]' size={24} />
    <FaLinkedin className='fill-[#FFFFFF]' size={24} />
    <FaXTwitter className='fill-[#FFFFFF]' size={24} />
@@ -33,22 +33,22 @@ const FooterX=()=>{
 
 
 </div>
-<div className='flex flex-row w-[50%] h-[90%] py-8 justify-around '>
- <div className='w-[20%] h-[100%] flex flex-col items-start'>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>About Us</Button>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>Engineers</Button>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>Pricing</Button>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>Contact Us</Button>
+<div className='flex flex-row w-[50%] h-[100%] justify-around '>
+ <div className='w-[20%] h-[80%] flex flex-col items-start mt-12'>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>About Us</Button>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Engineers</Button>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Pricing</Button>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Contact Us</Button>
    
  </div>
  
- <div className='w-[20%] h-[100%] flex flex-col items-start'>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>Blog</Button>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>Career</Button>
+ <div className='w-[20%] h-[80%] flex flex-col items-start mt-12'>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Blog</Button>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Career</Button>
  </div>
- <div className='w-[20%] h-[100%] flex flex-col items-start'>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>Privacy Policy</Button>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]'>Terms and Conditions</Button>
+ <div className='w-[20%] h-[80%] flex flex-col items-start mt-12'>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Privacy Policy</Button>
+   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Terms and Conditions</Button>
  </div>
  
 </div>
