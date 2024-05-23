@@ -6,13 +6,13 @@ export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, l
 
   return (
     <div id='card' className="rounded-xl  w-[25%] gradient-border my-8 cursor-pointer">
-      <Card  className="w-[100%] h-[480px]  bg-[#141C22] p-4 inner-content">
+      <Card  className="w-[100%] h-[480px]  bg-[#060507] p-4 inner-content">
       <CardHeader className="justify-start">
         <div className="w-[100%] flex flex-col">
           <div className="w-[100%] flex flex-row justify-between items-center">
             <div className="font-medium text-[28px] text-[#C7BFFF]"><p>{header}</p></div>
             {isTag ? (
-              <div className="bg-[#C7BFFF] text-[12px] p-2 h-[18px] text-[#141C22] font-semibold w-[20%] items-center justify-center flex rounded-full min-w-fit">
+              <div className="bg-[#C7BFFF] text-[12px] p-2 h-[18px] text-[#060507] font-semibold w-[20%] items-center justify-center flex rounded-full min-w-fit">
                 <p>{tagName}</p>
               </div>
             ) : null}
@@ -30,7 +30,7 @@ export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, l
         </ul>
       </CardBody>
       <CardFooter className="mt-12">
-        <Button className={`w-[100%] font-semibold ${isSelected ? 'bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]' : 'bg-[#141C22] border-[1px] border-[#E5E1E9]'} rounded-full text-[#E5E1E9] `}>{buttonText}</Button>
+        <Button className={`w-[100%] font-semibold ${isSelected ? 'bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]' : 'bg-[#060507] border-[1px] border-[#E5E1E9]'} rounded-full text-[#E5E1E9] `}>{buttonText}</Button>
       </CardFooter>
     </Card>
     </div>
