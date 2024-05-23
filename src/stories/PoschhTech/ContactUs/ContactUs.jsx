@@ -15,7 +15,7 @@ export const ContactUs = () => {
 const ContactUsX = () => {
   return (
     <>
-      <div className='relative h-[400px] w-[100%] bg-[#0b0a0e] overflow-hidden'>
+      <div className='relative h-[400px] w-[100%] bg-[#100c13] overflow-hidden'>
         <img
           className='floating-animation1 opacity-25 w-[100px] object-cover absolute mt-[200px] left-0 bottom-0'
           src='/ball1.png'
