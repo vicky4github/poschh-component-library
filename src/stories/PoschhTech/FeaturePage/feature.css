@@ -9,3 +9,15 @@
     outline: none !important;
     box-shadow: none !important; 
 }
+
+
+/* feature.css */
+
+#featurecard {
+    position: relative;
+  }
+  
+  #featurecard .flex-col {
+    transition: transform 0.5s ease-in-out;
+  }
+  

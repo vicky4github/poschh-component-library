@@ -5,7 +5,7 @@ import { PCard } from "../Card1/Card1";
 export const PricePage = () => {
 
   return (
-    <div className="w-screen h-auto pb-8 bg-[#272626] flex flex-col items-center">
+    <div className="w-screen h-auto pb-8 bg-[#141318] flex flex-col items-center">
       <div className="w-[100%] flex flex-col items-center justify-center items-center my-8">
         <div className=""><p className="font-semibold text-[56px] text-center md:text-[48px] text-[#F2F4F7] ">A plan that's tailor-made for you!</p></div>
         <div className="w-[70%] text-center "><p className="text-[18px] md:[16px] text-[#F2F4F7]" >Unleash the potential of data with our tailored analytical tools, crafted to suit your unique needs.</p></div>

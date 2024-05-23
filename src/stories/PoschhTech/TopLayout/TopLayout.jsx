@@ -9,8 +9,8 @@ import  Star from '../../../assets/emj.svg';
 export const Layout1 = () => {
  
   return (
-    <div className='flex flex-col justify-start min-h-fit w-screen bg-[#212121]'>
-       <div className='bg-[#212121] flex lg:flex-row flex-col  items-center w-[80%] min-h-fit m-auto py-12'>
+    <div className='flex flex-col justify-start min-h-fit w-screen bg-[#141318]'>
+       <div className='bg-[#141318] flex lg:flex-row flex-col  items-center w-[80%] min-h-fit m-auto py-12'>
        <div className='lg:w-[40%] lg:order-2 w-[60%]  mx-auto flex items-center'>
            <img className='w-[65%] scale-anima' src={Star}></img>
        

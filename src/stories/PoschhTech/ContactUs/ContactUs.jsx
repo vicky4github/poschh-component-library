@@ -5,7 +5,7 @@ import { Button } from "@nextui-org/react";
 export const ContactUs = () => {
   return (
     <>
-      <div id='contact' className='relative h-[400px] w-[100%] bg-[#262433] overflow-x-hidden p-0'>
+      <div id='contact' className='relative h-[400px] w-[100%] bg-[#141318] overflow-x-hidden p-0'>
         <ContactUsX />
       </div>
     </>
@@ -15,14 +15,14 @@ export const ContactUs = () => {
 const ContactUsX = () => {
   return (
     <>
-      <div className='relative h-[400px] w-[100%] bg-[#262433]'>
+      <div className='relative h-[400px] w-[100%] bg-[#0b0a0e] overflow-hidden'>
         <img
-          className='floating-animation1 opacity-25 w-[100px] object-cover absolute mt-[200px] left-0'
+          className='floating-animation1 opacity-25 w-[100px] object-cover absolute mt-[200px] left-0 bottom-0'
           src='/ball1.png'
           alt='Ball 1'
         />
         <img
-          className='floating-animation2 opacity-25 w-[120px] h-[140px] object-cover absolute right-0'
+          className='floating-animation2 opacity-25 w-[120px] h-[140px] object-cover absolute right-0 mt-0'
           src='/ball2.png'
           alt='Ball 2'
         />

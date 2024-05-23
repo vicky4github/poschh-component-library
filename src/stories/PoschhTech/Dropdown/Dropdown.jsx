@@ -27,7 +27,7 @@ export const Dropdown = () => {
   return (
     <div className="flex justify-center items-center min-h-screen dropdown-dency">
       <Popover className="relative">
-        <Popover.Button id='solution' className="inline-flex items-center gap-x-1 bg-[#212121] text-md font-semibold h-[50px] w-[150px] leading-6 text-[#E5E1E9]">
+        <Popover.Button id='solution' className="inline-flex items-center gap-x-1 bg-[#141318] text-md font-semibold h-[50px] w-[150px] leading-6 text-[#E5E1E9]">
           <span className='mr-2'>Solutions</span>
           <FaChevronDown className="h-3 w-3 text-white my-auto" aria-hidden="true" />
         </Popover.Button>
