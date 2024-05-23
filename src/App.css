@@ -8,3 +8,12 @@
 *{
   font-family: "Noto Sans", sans-serif;
 }
+
+
+.scale-anima{
+  transition:transform 0.2s ease-in-out ;
+  cursor: pointer;
+}
+.scale-anima:hover{
+  transform:scale(1.1);
+}

@@ -11,15 +11,18 @@
 
 #card:hover {
     transform: scale(1.05); /* Scale up on hover */
+    padding:1px;
 }
 .gradient-border {
     position: relative;
     margin-left: 50px;
     border-radius: 15px;
-    padding: 2px; /* Inner padding */
+    /* padding: 1px;  */
     background-clip: padding-box; /* Clips the background to the padding box */
     border: 2px solid transparent;
 }
+
+
 
 .gradient-border::before {
     content: "";
@@ -29,7 +32,7 @@
     right: 0;
     bottom: 0;
     border-radius: 15px; /* Ensure the pseudo-element has rounded corners */
-    padding: 2px; /* Match the padding of the main element */
+    padding: 1px; /* Match the padding of the main element */
     background: linear-gradient(to right, #6F6DDE, #63A5D6);
     /* z-index: -1;  */
 }
