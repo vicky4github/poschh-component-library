@@ -5,7 +5,8 @@ import { Button } from "@nextui-org/react";
 export const Feature = () => {
 
   return (
-    <div id='featurecard' className="bg-[#282434] w-[100%] flex flex-col items-center">
+    // <div id='featurecard' className="bg-[#282434] w-[100%] flex flex-col items-center">
+    <div id='featurecard' className="bg-[#141318] w-[100%] flex flex-col items-center">
       <div><p className="text-[#F2F4F7] text-[48px] font-semibold">Explore Our Key Features</p></div>
       <div><p className="text-[#F2F4F7] text-[16px] mt-4">Discover the Power Behind Our Platform: Unveiling Our Standout Features</p></div>
       
@@ -55,7 +56,7 @@ export const Feature = () => {
       </div>
       <div className="my-16 w-[100%] flex flex-col justify-center">
           <div><p className="text-[#F2F4F7] w-[100%] text-center">Schedule a free demo to see how our analytical tools can empower your success!</p></div>
-          <div className="mt-4 w-[100%] flex justify-center"><Button className={` w-[25%] font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-full text-[#E5E1E9] `}>Contact Sales</Button></div>
+          <div className="mt-6 w-[100%] flex justify-center"><Button className={` w-[20%] font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-full text-[#E5E1E9] `}>Contact Sales</Button></div>
         </div>
     </div>
   );

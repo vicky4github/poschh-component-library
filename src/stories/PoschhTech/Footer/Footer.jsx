@@ -6,7 +6,7 @@ export const Footer = () => {
  
   return (
     <>
-      <div id='footer' className='h-[450px] w-[100%] bg-[#141318] relative '>
+      <div id='footer' className='h-[400px] w-[100%] bg-[#141318] relative '>
        <FooterX/>
       </div>
     </>

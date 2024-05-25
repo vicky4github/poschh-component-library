@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.layout-bg {
+    background-image: url('/layout.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
