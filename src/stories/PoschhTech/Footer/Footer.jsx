@@ -18,7 +18,7 @@ const FooterX=()=>{
   <img  className= 'opacity-15 w-[100%] h-[100%]' src='/bg1.png'></img>
 </div>
 
-<div className='h-[450px] w-[100%] absolute  inset-0 flex items-center '>
+<div className='h-[400px] w-[100%] absolute  inset-0 flex items-center '>
 <div className='flex flex-col w-[35%] h-[80%] justify-between p-8 mr-12'>
  <div>
    <img  className= 'w-[12%] my-2' src='/logo.png'></img>
