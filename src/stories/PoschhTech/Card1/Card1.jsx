@@ -5,8 +5,8 @@ import {Card, CardHeader, CardBody, CardFooter, Button} from "@nextui-org/react"
 export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, list, buttonText, isSelected }) => {
 
   return (
-    <div id='card' className="rounded-xl  w-[25%] gradient-border my-8 cursor-pointer">
-      <Card  className="w-[100%] h-[480px]  bg-[#060507] p-4 inner-content">
+    <div id='card' className="rounded-xl  w-[25%] gradient-border  my-8 cursor-pointer">
+      <Card  className="w-[100%] h-[480px]  bg-gradient-to-r from-[#161824] to-[#060507] p-4 inner-content">
       <CardHeader className="justify-start">
         <div className="w-[100%] flex flex-col">
           <div className="w-[100%] flex flex-row justify-between items-center">

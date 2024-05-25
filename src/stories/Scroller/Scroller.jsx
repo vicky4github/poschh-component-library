@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export const Scroller = ({ items, pauseOnHover, pauseOnClick, direction, gradient, gradientColor, speed, delay, loop }) => {
   return (
-    <div className='w-[100%] flex justify-center overflow-hidden'>
+    <div className='w-[100%] flex justify-around m-0  overflow-hidden'>
       <Marquee
         style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}
         pauseOnHover={pauseOnHover}
@@ -17,13 +17,13 @@ export const Scroller = ({ items, pauseOnHover, pauseOnClick, direction, gradien
         loop={loop}
       >
         {direction === 'right' || direction === 'left' ? (
-          <div className='flex justify-around w-[100%]'>
+          <div className='flex  justify-around w-[100%]'>
             {items.map((item, index) => (
               <img key={index} src={item} alt={`Image ${index + 1}`} style={{ width: '100%', height: '100%' }} />
             ))}
           </div>
         ) : (
-          <div className='flex flex-col justify-around h-[80vh]'>
+          <div className='flex flex-col bg-red-500 justify-around h-[80vh]'>
             {items.map((item, index) => (
               <img key={index} src={item} alt={`Image ${index + 1}`} style={{ width: '100%', height: '100%' }} />
             ))}

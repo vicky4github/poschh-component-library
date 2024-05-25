@@ -47,3 +47,8 @@
   border: 0 !important;
   outline: none !important;
 }
+
+
+.input-wrapper>label{
+  color:white !important
+}
