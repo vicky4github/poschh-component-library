@@ -23,8 +23,8 @@ export const Brands = () => {
       <Scroller
             items={images}
             direction="left"
-            pauseOnHover
-            pauseOnClick
+            // pauseOnHover
+            // pauseOnClick
             gradient={false}
             speed={40}
             delay={0}
@@ -33,8 +33,8 @@ export const Brands = () => {
           <Scroller
             items={images}
             direction="right"
-            pauseOnHover
-            pauseOnClick
+            // pauseOnHover
+            // pauseOnClick
             gradient={false}
             speed={40}
             delay={0}

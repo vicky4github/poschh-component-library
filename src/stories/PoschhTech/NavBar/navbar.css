@@ -32,7 +32,9 @@
     border-radius: 35px;
     padding: 10px 20px !important;
   }
-  #salesButton {
+
+
+#salesButton {
     color: #E5E1E9 !important;
     font-weight: 600;
     background: linear-gradient(to right, #6F6DDE, #63A5D6) !important;
@@ -45,5 +47,5 @@
 #salesButton :focus,
 #salesButton :active{
   border: 0 !important;
-  outline: none !important;
+  outline: 0 !important;
 }
