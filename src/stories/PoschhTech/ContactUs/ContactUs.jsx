@@ -1,6 +1,7 @@
 import React from 'react';
 import './contactus.css';
-import { Button } from "@nextui-org/react";
+import { Button,Modal,ModalBody,useDisclosure,ModalContent } from "@nextui-org/react";
+import { ContactSalesModal } from '../NavBar/ContactSalesModal';
 
 export const ContactUs = () => {
   return (
@@ -13,6 +14,7 @@ export const ContactUs = () => {
 };
 
 const ContactUsX = () => {
+  const {isOpen, onOpen, onOpenChange} = useDisclosure();
   return (
     <>
       <div className='relative h-[400px] w-[100%] bg-[#100c13] overflow-hidden'>
@@ -37,9 +39,19 @@ const ContactUsX = () => {
               Our friendly customer support team is here to help! They can answer any questions you have about our packages and recommend the best fit for your needs.
             </p>
           </div>
-          <Button className='w-[40%] m-auto font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-full text-[#E5E1E9]'>
+          <Button onPress={onOpen} className='w-[40%] m-auto font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-full text-[#E5E1E9]'>
             Contact Sales
           </Button>
+          <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+        <ModalContent className=' bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]'>
+          {(onClose) => (
+            <>
+            
+        <ContactSalesModal onClose={onClose} onOpen={onOpen}/>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
         </div>
       </div>
     </>
