@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section  div{
+  font-weight: 300;
+  line-height: 16px;
+}
+  
