@@ -4,14 +4,13 @@ import { IoIosArrowBack } from "react-icons/io";
 
 export const TermsOfUse = () => {
     return (
-        <div className="flex flex-col bg-[#141318] text-[#E5E1E9] w-screen items-start mx-auto p-4">
-            <Link href="/">
-                <Button className="flex items-center justify-center m-12 font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-md text-[#E5E1E9]">
+        <div className="flex flex-col bg-[#141318] text-[#E5E1E9] w-screen h-screen items-start mx-auto">
+                <Button onClick={()=>{window.location.href='/'}} className="z-10 flex items-center justify-center m-12 font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-md text-[#E5E1E9]">
                     <IoIosArrowBack style={{ width: '15px', height: '15px', color: '#E5E1E9', stroke: '#E5E1E9' }} />
                     <span className="text-[#E5E1E9]">Home</span>
                 </Button>
-            </Link>
-            <div className="flex flex-col w-[100%] absolute top-10 items-center mx-auto">
+            
+            <div className="z-0 flex flex-col w-[100%] absolute top-10 items-center mx-auto">
     <h4 className="text-center leading-loose text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]">Posch Tech, INC.</h4>
 
       <h4 className="text-center text-3xl">CUSTOMER TERMS OF SERVICE</h4>

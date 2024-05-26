@@ -47,8 +47,8 @@ const FooterX=()=>{
    <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Career</Button>
  </div>
  <div className='w-[20%] h-[80%] flex flex-col items-start mt-12'>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Privacy Policy</Button>
-   <Button className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Terms and Conditions</Button>
+   <Button onClick={()=>{window.location.href='/privacy-policy'}} className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Privacy Policy</Button>
+   <Button onClick={()=>{window.location.href='/terms-of-use'}} className='h-[15%] bg-transparent text-[#F2F4F7] text-[16px]' disableRipple>Terms and Conditions</Button>
  </div>
  
 </div>
