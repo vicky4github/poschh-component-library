@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#featurecard Button:hover,
+#featurecard Button:focus,
+#featurecard Button:active{
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none !important; 
+}
+
+
+/* feature.css */
+
+#featurecard {
+    position: relative;
+  }
+  
+  #featurecard .flex-col {
+    transition: transform 0.5s ease-in-out;
+  }
+  

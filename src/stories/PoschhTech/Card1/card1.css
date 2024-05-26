@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#card {
+    /* Other styles for your card */
+    transition: transform 0.3s ease; /* Add a transition for the transform property */
+}
+
+#card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    padding:1px;
+}
+.gradient-border {
+    position: relative;
+    margin-left: 50px;
+    border-radius: 15px;
+    /* padding: 1px;  */
+    background-clip: padding-box; /* Clips the background to the padding box */
+    border: 2px solid transparent;
+}
+
+
+
+.gradient-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px; /* Ensure the pseudo-element has rounded corners */
+    padding: 1px; /* Match the padding of the main element */
+    background: linear-gradient(to right, #6F6DDE, #63A5D6);
+    /* z-index: -1;  */
+}
+
+.inner-content {
+    background: white; /* Background color for the inner content */
+    border-radius: 10px; /* Ensures the inner content also has rounded corners */
+    position: relative; /* Position relative to stay inside the parent */
+    z-index: 1; /* Place it above the pseudo-element */
+}

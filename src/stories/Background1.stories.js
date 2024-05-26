@@ -1,9 +1,10 @@
-import { Button } from './Button/Button';
+import { Background1 } from "./Background1/Background1";
+
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 export default {
-  title: 'Common/Loader',
-  component: Button,
+  title: 'Backgrounds/Background1',
+  component: Background1,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     layout: 'centered',
@@ -12,34 +13,15 @@ export default {
   tags: ['autodocs'],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {
-    backgroundColor: { control: 'color' },
+    color: { control: 'color' },
+    backgroundColor: {control: 'color' },
   },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary = {
   args: {
-    isLoading: true,
-    label: 'Button',
-  },
-};
-
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
+    color: 'red',
+    backgroundColor: 'green'
   },
 };
