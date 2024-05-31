@@ -19,7 +19,7 @@ export const Scroller = ({ items, pauseOnHover, pauseOnClick, direction, gradien
         {direction === 'right' || direction === 'left' ? (
           <div className='flex  justify-around w-[100%]'>
             {items.map((item, index) => (
-              <img key={index} src={item} alt={`Image ${index + 1}`} style={{ width: '100%', height: '100%' }} />
+              <img key={index} src={item} alt={`Image ${index + 1}`} style={{ width: '200px', height: '100px', margin:'50px', objectFit:'contain'}} />
             ))}
           </div>
         ) : (

@@ -1,13 +1,21 @@
 import { Scroller } from '../../Scroller/Scroller';
 import './brands.css';
 
-const images = [
-  './c1.png',
-  './c2.png',
-  './c3.png',
-  './c4.png',
-  './c5.png',
-  './c6.png',
+const images1 = [
+  './c1.svg',
+  './c2.svg',
+  './c3.svg',
+  './c4.svg',
+  './c5.svg',
+  // './c6.svg',
+];
+const images2 = [
+  './c7.svg',
+  './c8.svg',
+  './c9.svg',
+  './c10.svg',
+  './c11.svg',
+  './c12.svg',
 ];
 export const Brands = () => {
   return (
@@ -21,7 +29,7 @@ export const Brands = () => {
             </p>
           </div>
       <Scroller
-            items={images}
+            items={images1}
             direction="left"
             pauseOnHover
             pauseOnClick
@@ -31,7 +39,7 @@ export const Brands = () => {
             loop={0}
           />  
           <Scroller
-            items={images}
+            items={images2}
             direction="right"
             pauseOnHover
             pauseOnClick

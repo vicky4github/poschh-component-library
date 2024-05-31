@@ -18,7 +18,7 @@ export const Layout1 = () => {
       <div className='flex lg:flex-row flex-col items-center w-[90%] min-h-fit m-auto py-12 relative'>
         <div className='lg:w-[40%] lg:order-2 w-[40%] mx-auto flex items-center relative'>
           <img className='w-[75%] mx-auto scale-anima3' src={Star} alt="Star" />
-          <img className='absolute top-[-50%] left-[-10%] w-[40%] scale-anima1 scale-120' src={Torus} alt="Torus" />
+          <img className='absolute top-[-50%] left-[-10%] w-[40%] scale-anima1 ' src={Torus} alt="Torus" />
         </div>
         <div className='flex flex-col lg:w-[50%] lg:order-1 w-[90%] p-4 lg:text-[18px] text-[14px] justify-center text-[#E5E1E9]'>
           <p className='w-[90%] mx-auto lg:text-[56px] text-[36px] font-bold'>AI Powered Analytics Solution</p>
