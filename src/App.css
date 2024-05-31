@@ -11,10 +11,26 @@
 }
 
 
-.scale-anima{
+.scale-anima1{
   transition:transform 0.2s ease-in-out ;
   cursor: pointer;
 }
-.scale-anima:hover{
+.scale-anima1:hover{
+  transform:scale(0.9);
+}
+
+.scale-anima2{
+  transition:transform 0.2s ease-in-out ;
+  cursor: pointer;
+}
+.scale-anima2:hover{
   transform:scale(1.1);
+}
+
+.scale-anima3{
+  transition:transform 4s ease-in-out ;
+  cursor: pointer;
+}
+.scale-anima3:hover{
+  transform: rotate(360deg);
 }

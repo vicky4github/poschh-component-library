@@ -25,9 +25,9 @@ const callsToAction = [
 
 export const Dropdown = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen dropdown-dency">
-      <Popover className="relative">
-        <Popover.Button id='solution' className="inline-flex items-center gap-x-1 bg-[#141318] text-md font-semibold h-[50px] w-[150px] leading-6 text-[#E5E1E9]">
+    <div className="flex justify-center items-center w-[150px]  min-h-screen px-auto dropdown-dency">
+      <Popover className="relative flex mx-auto">
+        <Popover.Button id='solution' className="bg-[#141318] flex flex-row items-center px-auto text-md font-semibold h-[50px] text-[#E5E1E9]">
           <span className='mr-2'>Solutions</span>
           <FaChevronDown className="h-3 w-3 text-white my-auto" aria-hidden="true" />
         </Popover.Button>

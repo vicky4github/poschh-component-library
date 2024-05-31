@@ -43,3 +43,16 @@
     position: relative; /* Position relative to stay inside the parent */
     z-index: 1; /* Place it above the pseudo-element */
 }
+
+/* Add this to your global CSS file */
+.text-gradient {
+    background: linear-gradient(180deg, #F2D56F, #FBF3A1, #B57F12, #E9C861);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+
+  
+  

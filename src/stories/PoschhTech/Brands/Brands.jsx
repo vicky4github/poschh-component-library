@@ -14,10 +14,10 @@ export const Brands = () => {
     <div className='flex flex-col w-[100%] items-center justify-center bg-[#141318] py-12'>
       <div className='w-[60%] mb-12'>
             <p className='text-[#F2F4F7] text-[56px] font-semibold text-center leading-loose'>
-            Leading brands trust us
+            Our Trusted Proud Partners
             </p>
             <p className='text-[#F2F4F7] text-[16px] leading-relaxed text-center w-[70%] mx-auto'>
-            Our friendly customer support team is here to help! They can answer any questions you have about our packages and recommend the best fit for your needs.
+            Our customer support team is here to help! They can answer any queries you have about our packages and recommend the best fit for your needs.
             </p>
           </div>
       <Scroller

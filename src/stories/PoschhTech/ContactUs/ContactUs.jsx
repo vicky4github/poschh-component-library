@@ -30,13 +30,13 @@ const ContactUsX = () => {
         />
       </div>
       <div className='absolute inset-0 flex items-center justify-center'>
-        <div className='w-[60%] h-[80%] grid items-center'>
+        <div className='w-[80%] h-[80%] grid items-center'>
           <div>
             <p className='text-[#F2F4F7] text-[48px] font-semibold text-center leading-loose'>
-              Still Unsure? Let's Connect!
+            Still Unsure? Let's Chart Your Course Together 
             </p>
-            <p className='text-[#F2F4F7] text-[16px] text-center w-[90%] mx-auto'>
-              Our friendly customer support team is here to help! They can answer any questions you have about our packages and recommend the best fit for your needs.
+            <p className='text-[#F2F4F7] text-[15px] font-light text-center  w-[60%] mx-auto'>
+            We are proud of our customer support crew, where each interaction is a journey in itself.<br/> Experience the joy of seamless assistance, personalized recommendations, and a level of care that sets us apart in a vast ocean of choices.
             </p>
           </div>
           <Button onPress={onOpen} className='w-[40%] m-auto font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-full text-[#E5E1E9]'>

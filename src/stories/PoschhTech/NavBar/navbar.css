@@ -26,10 +26,11 @@
   }
   
   #reqButton {
-    color:#E5E1E9;
-    background-color: #141318;
+    color:#141318;
+    background-color: #E5E1E9;
     border: 2px solid #E5E1E9 !important;
     border-radius: 35px;
+    font-weight: bold;
     padding: 10px 20px !important;
   }
   #salesButton {
