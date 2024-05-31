@@ -29,9 +29,44 @@
 }
 
 .scale-anima3{
-  transition:transform 4s ease-in-out ;
+  transition:transform 0.2s ease-in-out ;
   cursor: pointer;
 }
 .scale-anima3:hover{
-  transform: rotate(360deg);
+  transform:scale(0.8);
+}
+
+
+
+
+.scale-acard{
+  transition:transform 0.2s ease-in-out ;
+  cursor: pointer;
+}
+.scale-acard:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 3px; /* Adjust the width of the scrollbar */
+  border-radius:12px;
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar-track {
+  background: #0e1117; /* Color of the scrollbar track */
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
 }
