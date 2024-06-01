@@ -11,6 +11,8 @@ import {
 import PoschLanding from './PoschhLanding';
 import { PrivacyPolicy } from './stories/PoschhTech/PrivacyPolicy/PrivacyPolicy';
 import { TermsOfUse } from './stories/PoschhTech/TermsofUse/TermsofUse';
+import { AnalyticsPage } from './stories/PoschhTech/Analytics/Analytics';
+import SecurityPage from './stories/PoschhTech/Security/Security';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
   {
     path: "terms-of-use",
     element: <TermsOfUse/>,
+  },
+  {
+    path: "analytics",
+    element: <AnalyticsPage/>,
+  },
+  {
+    path: "security",
+    element: <SecurityPage/>,
   },
 ]);
 

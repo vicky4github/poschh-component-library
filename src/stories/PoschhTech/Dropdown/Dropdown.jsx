@@ -11,9 +11,9 @@ import {
 import { FaChevronDown, FaPhone, FaCirclePlay } from 'react-icons/fa6';
 
 const solutions = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: HiOutlineChartPie },
+  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: 'analytics', icon: HiOutlineChartPie },
   { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: HiOutlineCursorArrowRays },
-  { name: 'Security', description: "Your customers' data will be safe and secure", href: '#', icon: HiFingerPrint },
+  { name: 'Security', description: "Your customers' data will be safe and secure", href: 'security', icon: HiFingerPrint },
   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: HiOutlineSquaresPlus },
   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: HiArrowPath },
 ];
@@ -59,7 +59,7 @@ export const Dropdown = () => {
                   </div>
                 ))}
               </div>
-              <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-[#C7BFFF]">
+              {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-[#C7BFFF]">
                 {callsToAction.map((item) => (
                   <a
                     key={item.name}
@@ -70,7 +70,7 @@ export const Dropdown = () => {
                     {item.name}
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
           </Popover.Panel>
         </Transition>
