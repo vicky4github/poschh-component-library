@@ -32,7 +32,7 @@ export const NavigationBar = () => {
 
       <div className='hidden md:flex items-center space-x-4'>
         <Dropdown />
-        <Link href="/page1">
+        <Link href="/#">
           <Button id='reqButton'>Request a quote</Button>
         </Link>
         <Link>
@@ -45,7 +45,7 @@ export const NavigationBar = () => {
       {menuOpen && (
         <div className='absolute top-0 right-0 h-screen w-3/4 bg-[#141318] flex flex-col items-start p-8 md:hidden'>
           <Dropdown />
-          <Link href="/page1">
+          <Link href="/#">
             <Button id='reqButton' className='my-2' onClick={handleMenuClose}>Request a quote</Button>
           </Link>
           <Link>
@@ -53,7 +53,7 @@ export const NavigationBar = () => {
           </Link>
         </div>
       )}
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+      <Modal placement='center' isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent className='bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]'>
           {(onClose) => (
             <ContactSalesModal onClose={onClose} onOpen={onOpen} />

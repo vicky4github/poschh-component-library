@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
-import {Button} from "@nextui-org/react";
+import { Button,Modal,useDisclosure,ModalContent } from "@nextui-org/react";
+import { ContactSalesModal } from '../NavBar/ContactSalesModal';
 import { FaInstagram, FaLinkedin , FaXTwitter  } from "react-icons/fa6";
 export const Footer = () => {
  
@@ -14,6 +15,7 @@ export const Footer = () => {
 };
 
 const FooterX=()=>{
+  const {isOpen, onOpen, onOpenChange} = useDisclosure();
   return(<> <div className='w-[100%] h-[100%] absolute bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] opacity-40 bg-blend-luminosity'>
   <img  className= 'opacity-15 w-[100%] h-[100%]' src='/bg1.png'></img>
 </div>
@@ -37,7 +39,17 @@ const FooterX=()=>{
  <div className='md:w-[20%] h-[100%] flex flex-col items-start md:h-[80%]'>
    <Button className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>About Us</Button>
    <Button className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Pricing</Button>
-   <Button className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Contact Us</Button>
+   <Button  onPress={onOpen} className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Contact Us</Button>
+   <Modal placement='center' isOpen={isOpen} onOpenChange={onOpenChange}>
+        <ModalContent className=' bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]'>
+          {(onClose) => (
+            <>
+            
+        <ContactSalesModal onClose={onClose} onOpen={onOpen}/>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
    
  </div>
  
