@@ -20,11 +20,11 @@ const images2 = [
 export const Brands = () => {
   return (
     <div className='flex flex-col w-[100%] items-center justify-center bg-[#141318] py-12'>
-      <div className='w-[60%] mb-12'>
-            <p className='text-[#F2F4F7] text-[56px] font-semibold text-center leading-loose'>
+      <div className='md:w-[60%] w-[90%] mb-12'>
+            <p className='text-[#F2F4F7] md:text-[56px] text-[30px] font-semibold text-center md:leading-loose'>
             Our Trusted Proud Partners
             </p>
-            <p className='text-[#F2F4F7] text-[16px] leading-relaxed text-center w-[70%] mx-auto'>
+            <p className='text-[#F2F4F7] md:text-[16px] text-[12px] md:leading-relaxed text-center md:w-[70%] mx-auto'>
             Our customer support team is here to help! They can answer any queries you have about our packages and recommend the best fit for your needs.
             </p>
           </div>

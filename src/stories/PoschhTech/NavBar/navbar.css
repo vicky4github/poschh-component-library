@@ -14,10 +14,6 @@
     color: white;
   }
   
-  .logo img {
-    width: auto;
-    height: 50px;
-  }
   
   .buttons {
     display: flex;

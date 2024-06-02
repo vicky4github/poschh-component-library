@@ -6,12 +6,12 @@ export const Feature = () => {
 
   return (
     // <div id='featurecard' className="bg-[#282434] w-[100%] flex flex-col items-center">
-    <div id='featurecard' className="bg-[#141318] w-[100%] flex flex-col items-center">
-      <div><p className="text-[#F2F4F7] text-[48px] font-semibold">Explore Our Key Features</p></div>
-      <div><p className="text-[#F2F4F7] text-[16px] mt-4">Discover the Power Behind Our Platform: Unveiling Our Standout Features</p></div>
+    <div id='featurecard' className="bg-[#141318] w-[100%] flex flex-col text-center items-center">
+      <div><p className="text-[#F2F4F7] text-[30px] md:text-[48px] font-semibold">Explore Our Key Features</p></div>
+      <div><p className="text-[#F2F4F7] w-[90%] mx-auto text-[12px] md:text-[16px] mt-4">Discover the Power Behind Our Platform: Unveiling Our Standout Features</p></div>
       
-      <div className="flex flex-row w-[65%] h-[650px] justify-between mt-16">
-        <div className="flex flex-col h-[100%] justify-around">
+      <div className="flex md:flex-row flex-col md:w-[65%] w-[100%] h-[650px] justify-between mt-4 md:mt-16">
+        <div className="flex md:flex-col flex-row h-[100%] justify-around">
         <BCard
           body="Unify data management and empower data-driven decisions. Automate data collection, generate custom reports (reduce reporting time by 40%), and boost productivity by 20%. All while ensuring unparalleled security and scalability."
           header="Streamline Your Workflow"
@@ -25,7 +25,7 @@ export const Feature = () => {
           width={320}
         />
         </div>
-        <div className="flex flex-col h-[100%] justify-around">
+        <div className="flex  md:flex-col flex-row h-[100%] justify-around">
         <BCard
           body="Uncover customer trends and preferences to boost satisfaction by 25%. Leverage this knowledge for laser-focused marketing campaigns, driving a 10% conversion increase."
           header="Gain Deep Customer Insights"
@@ -39,7 +39,7 @@ export const Feature = () => {
           width={320}
         />
         </div>
-        <div className="flex flex-col h-[100%] justify-around">
+        <div className="flex  md:flex-col flex-row h-[100%] justify-around">
         <BCard
           body="Unify data management and empower data-driven decisions. Automate data collection, generate custom reports (reduce reporting time by 40%), and boost productivity by 20%. All while ensuring unparalleled security and scalability."
           header="Streamline Your Workflow"

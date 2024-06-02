@@ -6,14 +6,14 @@ export const PricePage = () => {
 
   return (
     <div className="w-screen h-auto pb-8 bg-[#141318] flex flex-col items-center">
-      <div className="w-[100%] flex flex-col items-center justify-center items-center my-8">
-        <div className=""><p className="font-semibold text-[56px] text-center md:text-[48px] text-[#F2F4F7] ">Crafted Just for You: Your Customized Plan!</p></div>
-        <div className="w-[60%] mt-4 font-light text-center "><p className="text-[18px] md:[16px] leading-[40px] text-[#F2F4F7]" >
-          Unlock Data Potential with Customized Analytics Solutions Designed Exclusively for You.<br/>
+      <div className="w-[100%] flex flex-col items-center justify-center items-center mt-8 md:my-8">
+        <div className=""><p className="font-semibold md:text-[56px] text-center text-[24px] text-[#F2F4F7] ">Crafted Just for You: Your Customized Plan!</p></div>
+        <div className="md:w-[60%] w-[70%] mx-auto mt-4 font-light text-center "><p className="text-[12px] md:[18px] md:leading-[40px] text-[#F2F4F7]" >
+          Unlock Data Potential with Customized Analytics Solutions Designed Exclusively for You.
           Pay for only the features you need and not the features you might need 
         </p></div>
       </div>
-      <div className="flex lg:flex-row md:flex-row sm:flex-col w-[90%] mt-16 items-center justify-center">
+      <div className="flex md:flex-row flex-col w-[90%] md:mt-16 mt-8 items-center justify-center">
       <PCard
           buttonText="Get Started"
           header="Business Starter Pack"

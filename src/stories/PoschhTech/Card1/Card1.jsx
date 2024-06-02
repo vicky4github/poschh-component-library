@@ -5,7 +5,7 @@ import {Card, CardHeader, CardBody, CardFooter, Button} from "@nextui-org/react"
 export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, list, buttonText, isSelected }) => {
 
   return (
-    <div id='card' className="rounded-xl w-[30%] gradient-border hover:shadow-[0px_0px_60px_-20px_rgba(0,0,0,0.3)] hover:shadow-[#C7BFFF] my-8 cursor-pointer" >
+    <div id='card' className="rounded-xl  mx-auto md:w-[30%] w-[90%] gradient-border hover:shadow-[0px_0px_60px_-20px_rgba(0,0,0,0.3)] hover:shadow-[#C7BFFF] my-8 cursor-pointer" >
       <Card  className="w-[100%] h-[550px]  bg-gradient-to-r from-[#161824] to-[#060507] p-4 inner-content">
       <CardHeader className="justify-start">
         <div className="w-[100%] flex flex-col">
@@ -14,7 +14,7 @@ export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, l
             {isTag ? ( 
               isSelected?(
                 <div>
-                    <img src='./tag.svg'></img>
+                    <img className='xs:w-12' src='./tag.svg'></img>
                 </div>)
                 :
                 <div className="bg-[#C7BFFF] text-[12px] p-2 h-[18px] text-[#060507] font-semibold w-[20%] items-center justify-center flex rounded-full min-w-fit">
@@ -26,18 +26,18 @@ export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, l
           <div className="flex flex-row items-baseline ">
           {isSelected?(
                 <div>
-                    <img  className='mt-4 ' src='./price.svg'></img>
+                    <img  className='md:mt-4 mt-6 xs:h-[32px]' src='./price.svg'></img>
                 </div>)
                 :
-            <p className="font-bold text-[46px] text-[#C7BFFF]">${pricing} </p>}
-            <p className="font-medium text-[12px] text-[#E5E1E9] ml-2"> /{priceTime}</p>
+            <p className="font-bold md:text-[46px] text-[36px] text-[#C7BFFF]">${pricing} </p>}
+            <p className="font-medium md:text-[12px] text-[10px] text-[#E5E1E9] ml-2"> /{priceTime}</p>
           </div>
           <p className="text-[16px] font-light   mt-4 text-[#E5E1E9]">{info}</p>
         </div>
       </CardHeader>
       <CardBody className="px-3 py-2 font-medium text-[#E5E1E9]">
-        <ul className="list-image-[url('./check.png')] w-[85%] mx-auto flex flex-col justify-center">
-          {list.map((item, index) => (<li key={index} className=" my-[4px] items-center font-light text-[12px]">{item}</li>))}
+        <ul className="list-image-[url('./check.png')] md:w-[85%] w-[95%] mx-auto flex flex-col justify-center">
+          {list.map((item, index) => (<li key={index} className=" my-[4px] items-center font-light text-[10px] md:text-[12px]">{item}</li>))}
         </ul>
       </CardBody>
       <CardFooter className="mt-12">
