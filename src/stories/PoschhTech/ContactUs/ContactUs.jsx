@@ -1,6 +1,6 @@
 import React from 'react';
 import './contactus.css';
-import { Button,Modal,ModalBody,useDisclosure,ModalContent } from "@nextui-org/react";
+import { Button,Modal,useDisclosure,ModalContent } from "@nextui-org/react";
 import { ContactSalesModal } from '../NavBar/ContactSalesModal';
 
 export const ContactUs = () => {
@@ -42,7 +42,7 @@ const ContactUsX = () => {
           <Button onPress={onOpen} className='w-[40%] m-auto font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-full text-[#E5E1E9]'>
             Contact Sales
           </Button>
-          <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+          <Modal className='xs:w-[80%] mx-auto' placement='center' isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent className=' bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]'>
           {(onClose) => (
             <>

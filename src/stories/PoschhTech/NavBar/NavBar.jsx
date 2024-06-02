@@ -8,7 +8,7 @@ import { FaBars } from "react-icons/fa";
 
 export const NavigationBar = () => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuToggle = () => setMenuOpen(!menuOpen);
   const handleMenuClose = () => setMenuOpen(false);
