@@ -13,6 +13,7 @@ import { PrivacyPolicy } from './stories/PoschhTech/PrivacyPolicy/PrivacyPolicy'
 import { TermsOfUse } from './stories/PoschhTech/TermsofUse/TermsofUse';
 import { AnalyticsPage } from './stories/PoschhTech/Analytics/Analytics';
 import SecurityPage from './stories/PoschhTech/Security/Security';
+import { Footer } from './stories/PoschhTech/Footer/Footer';
 
 const router = createBrowserRouter([
   {
@@ -23,11 +24,11 @@ const router = createBrowserRouter([
   },
   {
     path: "privacy-policy",
-    element: <PrivacyPolicy/>,
+    element: <><PrivacyPolicy/><Footer/></>,
   },
   {
     path: "terms-of-use",
-    element: <TermsOfUse/>,
+    element: <><TermsOfUse/><Footer/></>,
   },
   {
     path: "analytics",

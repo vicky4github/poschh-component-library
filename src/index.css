@@ -70,3 +70,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.anal-img:hover {
+  outline: 2px solid rgba(255, 255, 255, 0.7); /* White outline with transparency */
+  outline-offset: 15px; /* Adjust this value to control the distance between the image and the outline */
+  cursor: pointer;
+}
+
+.anal-img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  transition: outline 2s ease; /* Smooth transition for the outline */
+}

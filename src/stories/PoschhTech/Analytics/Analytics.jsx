@@ -2,6 +2,9 @@ import React from 'react';
 import './analytics.css';
 import { Button } from '@nextui-org/react';
 import { IoIosArrowBack } from "react-icons/io";
+import analytics1 from "../../../assets/chart-1.jpg"
+import analytics2 from "../../../assets/chart-2.webp"
+
 export const AnalyticsPage= () => {
   return (
 
@@ -19,9 +22,9 @@ export const AnalyticsPage= () => {
     <p className="text-lg mb-12">
           Our analytics tool at Poschh is powered by Artificial Intelligence (AI) and cutting-edge technologies to provide advanced insights and drive data-based decision-making for our users.
       </p>
-        <div className="flex justify-center mb-8">
-          <img src="analytics1.jpg" alt="Analytics Image 1" className="w-64 h-64 object-cover mr-4" />
-          <img src="analytics2.jpg" alt="Analytics Image 2" className="w-64 h-64 object-cover" />
+        <div className="flex justify-center mb-8 ">
+          <img src={analytics1} alt="Analytics Image 1" className="w-[60%]  object-contain mr-4 rounded-md anal-img" />
+          {/* <img src={analytics2} alt="Analytics Image 2" className="w-[50%] object-contain rounded-md" /> */}
         </div>
         <h2 className="text-2xl font-bold mb-2">Advanced Data Processing with Kafka-Spark</h2>
         <p className="text-lg mb-12">
