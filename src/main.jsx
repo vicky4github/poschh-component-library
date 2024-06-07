@@ -14,6 +14,8 @@ import { TermsOfUse } from './stories/PoschhTech/TermsofUse/TermsofUse';
 import { AnalyticsPage } from './stories/PoschhTech/Analytics/Analytics';
 import SecurityPage from './stories/PoschhTech/Security/Security';
 import { Footer } from './stories/PoschhTech/Footer/Footer';
+import { Toaster } from 'react-hot-toast';
+
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,13 @@ const router = createBrowserRouter([
   },
 ]);
 
+
+const MainApp=()=>(<>
+<Toaster />
+<RouterProvider router={router}/>
+</>)
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <MainApp />
 );
