@@ -54,7 +54,7 @@ const FooterX=()=>{
  </div>
  
  <div className='md:w-[20%] h-[100%] flex flex-col items-start md:h-[80%]'>
-   <Button className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Blog</Button>
+   <Button onClick={()=>{window.location.href='https://blog.poschh.com'}}  className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Blog</Button>
    <Button className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Career</Button>
  </div>
  <div className='md:w-[20%] h-[100%] flex flex-col items-start md:h-[80%]'>
