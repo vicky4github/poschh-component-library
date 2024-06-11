@@ -42,11 +42,14 @@ const router = createBrowserRouter([
   },
 ]);
 
-
-const MainApp=()=>(<>
-<Toaster />
-<RouterProvider router={router}/>
-</>)
+const MainApp=()=>{
+  
+  return(<>
+    <Toaster />
+  
+    <RouterProvider router={router}/>
+    </>)
+}
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
