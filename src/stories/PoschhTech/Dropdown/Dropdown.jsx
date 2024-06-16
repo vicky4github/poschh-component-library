@@ -13,10 +13,11 @@ import { FaChevronDown, FaPhone, FaCirclePlay } from 'react-icons/fa6';
 
 const solutions = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: 'analytics', icon: HiOutlineChartPie },
-  { name: 'Store', description: 'Browse and purchase our products online (BETA) WIP', href: 'http://store.poschh.com/', icon: HiOutlineBuildingStorefront },
   // { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: HiOutlineCursorArrowRays },
   { name: 'Security', description: "Your customers' data will be safe and secure", href: 'security', icon: HiFingerPrint },
-  // { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: HiOutlineSquaresPlus },
+  { name: 'Store', description: 'Browse and purchase our products online (BETA) WIP', href: 'http://store.poschh.com/', icon: HiOutlineBuildingStorefront },
+  { name: 'Tools (Spectate US Top 10)', description: 'A free tool to spectate us top 10 stocks', href: 'http://13.235.21.219:8501/', icon: HiOutlineSquaresPlus },
+  { name: 'Tools (Data Visualizatioin)', description: 'A free tool to visualize raw data from .xlx or .csv', href: 'http://13.235.21.219:8502/', icon: HiOutlineSquaresPlus },
   // { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: HiArrowPath },
 ];
 
