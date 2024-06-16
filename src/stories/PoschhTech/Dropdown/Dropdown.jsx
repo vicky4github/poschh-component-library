@@ -13,7 +13,7 @@ import { FaChevronDown, FaPhone, FaCirclePlay } from 'react-icons/fa6';
 
 const solutions = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: 'analytics', icon: HiOutlineChartPie },
-  { name: 'Store', description: 'Browse and purchase our products online', href: 'http://store.poschh.com/', icon: HiOutlineBuildingStorefront },
+  { name: 'Store', description: 'Browse and purchase our products online (BETA) WIP', href: 'http://store.poschh.com/', icon: HiOutlineBuildingStorefront },
   // { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: HiOutlineCursorArrowRays },
   { name: 'Security', description: "Your customers' data will be safe and secure", href: 'security', icon: HiFingerPrint },
   // { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: HiOutlineSquaresPlus },

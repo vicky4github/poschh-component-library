@@ -19,8 +19,8 @@ const images2 = [
 ];
 export const Brands = () => {
   return (
-    <div className='flex flex-col w-[100%] items-center justify-center bg-[#141318] py-12'>
-      <div className='md:w-[60%] w-[90%] mb-12'>
+    <div className='flex flex-col w-[100%]  items-center justify-center bg-[#141318] py-12'>
+      <div className='md:w-[60%] w-[90%] '>
             <p className='text-[#F2F4F7] md:text-[56px] text-[30px] font-semibold text-center md:leading-loose'>
             Our Trusted Proud Partners
             </p>
@@ -33,8 +33,9 @@ export const Brands = () => {
             direction="left"
             pauseOnHover
             pauseOnClick
-            gradient={false}
+            gradient={true}
             speed={40}
+            gradientColor={"#141318"}
             delay={0}
             loop={0}
           />  
@@ -43,7 +44,8 @@ export const Brands = () => {
             direction="right"
             pauseOnHover
             pauseOnClick
-            gradient={false}
+            gradient={true}
+            gradientColor={"#141318"}
             speed={40}
             delay={0}
             loop={0}

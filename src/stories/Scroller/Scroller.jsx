@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 
 export const Scroller = ({ items, pauseOnHover, pauseOnClick, direction, gradient, gradientColor, speed, delay, loop }) => {
   return (
-    <div className='w-[100%] flex justify-around m-0  overflow-hidden'>
+    <div className='w-[100%]  flex justify-around m-0  overflow-hidden'>
       <Marquee
-        style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}
+        style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%',}}
         pauseOnHover={pauseOnHover}
         pauseOnClick={pauseOnClick}
         direction={direction}

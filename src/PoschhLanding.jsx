@@ -18,7 +18,7 @@ useEffect(()=>{
 
 return(<>
    <div className='w-screen h-screen overflow-x-hidden'>
-   <Modal placement='center' isOpen={isOpen}  onOpenChange={onOpenChange}>
+   {/* <Modal placement='center' isOpen={isOpen}  onOpenChange={onOpenChange}>
             <ModalContent className=' bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]'>
               {(onClose) => (
                 <>
@@ -26,7 +26,7 @@ return(<>
                 </>
               )}
             </ModalContent>
-          </Modal>
+          </Modal> */}
         <NavigationBar  />
         <Layout1 />
         <PricePage/>

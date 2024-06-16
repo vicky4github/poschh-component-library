@@ -25,9 +25,11 @@ export const Layout1 = () => {
           <p className='md:line-clamp-2 my-4 w-[90%] mx-auto'>
           Turn data into insights. We empower your professionals with the expertise to leverage powerful analytical tools.
           </p>
+          <p className='px-11 py-2'>Unlock deeper insights and drive smarter decisions for any business use case</p>
           <ul className='w-[80%] md:list-image-[url("./check_circle.svg")] list-disc mx-auto'>
             <li className='my-2'><b>Increase efficiency</b> and productivity across all departments.</li>
             <li className='my-2'><b>Optimize processes</b> and workflows for maximum impact.</li>
+            <li className='my-2'><b>+ Business AI Chatbot</b> - chatbot that addresses your business specifically</li>
           </ul>
           {/* <Button className='bg-[#C7BFFF] p-6 w-[35%] mx-8 my-6 rounded-3xl text-[#2F285F]'>
             <p className='md:text-[16px] text-[13px]'>Unlock Your Insights</p>
