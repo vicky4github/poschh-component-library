@@ -10,15 +10,15 @@ export const AnalyticsPage= () => {
 
   <div className="flex flex-col  bg-[#141318] text-[#E5E1E9]  w-screen items-start mx-auto p-4">
     
-     <Button onClick={()=>{window.location.href='/'}} className="z-10 flex items-center justify-center m-12 font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-md text-[#E5E1E9]">
+     <Button onClick={()=>{window.location.href='/'}} className="md:z-10 flex items-center justify-center m-4 md:m-12 font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-md text-[#E5E1E9]">
       <IoIosArrowBack style={{width:'15px' , height:'15px', color:'#E5E1E9', stroke:'#E5E1E9' }} />
       <span className="text-[#E5E1E9]">Home</span>
     </Button>
-    <div className="z-0 flex flex-col w-[100%] absolute top-16  items-center mx-auto">
+    <div className="md:z-0 flex flex-col w-[100%] md:absolute top-16  items-center mx-auto">
       <h4 className="text-center text-4xl font-semibold">Leveraging AI in Our Analytics Tool</h4>
     </div>
    
-    <div className="w-full mx-auto max-w-6xl text-justify mt-12 text-[14px] font-light ">
+    <div className="md:w-full w-[85%] mx-auto max-w-6xl md:text-justify mt-12 text-[14px] font-light ">
     <p className="text-lg mb-12">
           Our analytics tool at Poschh is powered by Artificial Intelligence (AI) and cutting-edge technologies to provide advanced insights and drive data-based decision-making for our users.
       </p>

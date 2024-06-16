@@ -6,7 +6,7 @@ export const PricePage = () => {
 
   return (
     <div className="w-screen h-auto pb-8 bg-[#141318] flex flex-col items-center">
-      <div className="w-[100%] flex flex-col items-center justify-center items-center mt-8 md:my-8">
+      <div className="w-[100%] flex flex-col justify-center items-center mt-8 md:my-8">
         <div className=""><p className="font-semibold md:text-[56px] text-center text-[24px] text-[#F2F4F7] ">Crafted Just for You: Your Customized Plan!</p></div>
         <div className="md:w-[60%] w-[70%] mx-auto mt-4 font-light text-center "><p className="text-[12px] md:[18px] md:leading-[40px] text-[#F2F4F7]" >
           Unlock Data Potential with Customized Analytics Solutions Designed Exclusively for You.
@@ -16,6 +16,7 @@ export const PricePage = () => {
       <div className="flex md:flex-row flex-col w-[90%] md:mt-16 mt-8 items-center justify-center">
       <PCard
           buttonText="Get Started"
+          buttonLink='/getStarted?cardIndex=1'
           header="Business Starter Pack"
           info="Best for Small Teams or Individuals"
           list={[
@@ -33,6 +34,7 @@ export const PricePage = () => {
         />
         <PCard
             buttonText="Get Started"
+            buttonLink='/getStarted?cardIndex=0'
             header="Business Standard Pack"
             info="Best for Mid-Size Teams"
             isSelected
@@ -51,6 +53,7 @@ export const PricePage = () => {
           />
         <PCard
           buttonText="Get Started"
+          buttonLink='/getStarted?cardIndex=2'
           header="Business Enterprise Exclusive Pack"
           info="Best for Enterprise"
           list={[

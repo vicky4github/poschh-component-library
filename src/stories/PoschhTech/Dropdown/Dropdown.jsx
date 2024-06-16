@@ -7,15 +7,17 @@ import {
   HiOutlineCursorArrowRays,
   HiFingerPrint,
   HiOutlineSquaresPlus,
+  HiOutlineBuildingStorefront
 } from 'react-icons/hi2';
 import { FaChevronDown, FaPhone, FaCirclePlay } from 'react-icons/fa6';
 
 const solutions = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: 'analytics', icon: HiOutlineChartPie },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: HiOutlineCursorArrowRays },
+  { name: 'Store', description: 'Browse and purchase our products online', href: 'http://store.poschh.com/', icon: HiOutlineBuildingStorefront },
+  // { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: HiOutlineCursorArrowRays },
   { name: 'Security', description: "Your customers' data will be safe and secure", href: 'security', icon: HiFingerPrint },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: HiOutlineSquaresPlus },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: HiArrowPath },
+  // { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: HiOutlineSquaresPlus },
+  // { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: HiArrowPath },
 ];
 
 const callsToAction = [
@@ -25,10 +27,10 @@ const callsToAction = [
 
 export const Dropdown = () => {
   return (
-    <div className="flex justify-center items-center w-[150px]  min-h-screen px-auto dropdown-dency">
+    <div className="flex justify-center items-center md:w-[150px]  w-[50px] min-h-screen px-auto dropdown-dency">
       <Popover className="relative flex mx-auto">
         <Popover.Button id='solution' className="bg-[#141318] flex flex-row items-center px-auto text-md font-semibold h-[50px] text-[#E5E1E9]">
-          <span className='mr-2'>Solutions</span>
+          <span className='mr-2 xs:text-[10px]'>Solutions</span>
           <FaChevronDown className="h-3 w-3 text-white my-auto" aria-hidden="true" />
         </Popover.Button>
 

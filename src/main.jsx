@@ -15,6 +15,8 @@ import { AnalyticsPage } from './stories/PoschhTech/Analytics/Analytics';
 import SecurityPage from './stories/PoschhTech/Security/Security';
 import { Footer } from './stories/PoschhTech/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
+import GetStarted from './stories/PoschhTech/GetStarted/GetStarted';
+import { Career } from './stories/PoschhTech/Career/Career';
 
 
 const router = createBrowserRouter([
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
   {
     path: "security",
     element: <SecurityPage/>,
+  },
+  {
+    path: "getstarted",
+    element: <GetStarted/>,
+  },
+  {
+    path: "careers",
+    element: <Career/>,
   },
 ]);
 

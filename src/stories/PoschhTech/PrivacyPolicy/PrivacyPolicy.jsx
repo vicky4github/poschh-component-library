@@ -8,18 +8,18 @@ export const PrivacyPolicy = () => {
   return (
     <div className="flex flex-col  bg-[#141318] text-[#E5E1E9]  w-screen items-start mx-auto p-4">
     
-     <Button onClick={()=>{window.location.href='/'}} className="z-10 flex items-center justify-center m-12 font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-md text-[#E5E1E9]">
+     <Button onClick={()=>{window.location.href='/'}} className="md:z-10 flex items-center justify-center m-4 md:m-12 font-semibold bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6] rounded-md text-[#E5E1E9]">
       <IoIosArrowBack style={{width:'15px' , height:'15px', color:'#E5E1E9', stroke:'#E5E1E9' }} />
       <span className="text-[#E5E1E9]">Home</span>
     </Button>
-    <div className="z-0 flex flex-col w-[100%] absolute top-10 items-center mx-auto">
+    <div className="md:z-0 flex flex-col w-[100%] md:absolute top-10 items-center mx-auto">
     <h4 className="text-center leading-loose text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]">Posch Tech, INC.</h4>
 
       <h4 className="text-center text-3xl">PRIVACY POLICY</h4>
      
     </div>
    
-    <div className="w-full mx-auto max-w-6xl text-justify mt-12 text-[14px] font-light ">
+    <div className="md:w-full w-[90%] mx-auto max-w-6xl md:text-justify mt-12 text-[14px] font-light ">
       <div>
         <p className="text-base font-normal leading-loose">Last Updated: May 26, 2024</p>
         <section className="my-8 font-semibold leading-loose">

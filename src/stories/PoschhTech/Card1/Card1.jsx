@@ -2,7 +2,7 @@ import React from "react";
 import './card1.css';
 import {Card, CardHeader, CardBody, CardFooter, Button} from "@nextui-org/react";
 
-export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, list, buttonText, isSelected }) => {
+export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, list, buttonText, isSelected, buttonLink }) => {
 
   return (
     <div id='card' className="rounded-xl  mx-auto md:w-[30%] w-[90%] gradient-border hover:shadow-[0px_0px_60px_-20px_rgba(0,0,0,0.3)] hover:shadow-[#C7BFFF] my-8 cursor-pointer" >
@@ -41,7 +41,7 @@ export const PCard = ({ header, isTag, tagName = '', pricing, priceTime, info, l
         </ul>
       </CardBody>
       <CardFooter className="mt-12">
-        <Button className={`w-[100%] font-semibold ${isSelected ? 'bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]' : 'bg-[#060507] border-[1px] border-[#E5E1E9]'} rounded-full text-[#E5E1E9] `}>{buttonText}</Button>
+        <Button onClick={() => { window.location.href = buttonLink }} className={`w-[100%] font-semibold ${isSelected ? 'bg-gradient-to-r from-[#6F6DDE] to-[#63A5D6]' : 'bg-[#060507] border-[1px] border-[#E5E1E9]'} rounded-full text-[#E5E1E9] `}>{buttonText}</Button>
       </CardFooter>
     </Card>
     </div>

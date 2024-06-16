@@ -27,9 +27,9 @@ const FooterX=()=>{
    <p className='md:text-[12px] text-[10px] md:w-[80%] w-[100%] text-[#F2F4F7] leading-6 font-light'>At Poschh Analytics, we empower and help professionals become masters of their own data. Discover how to leverage data-driven strategies for unparalleled success, mastering the digital realm with innovation and expertise.</p>
  </div>
  <div className='flex flex-row w-[25%] justify-between'>
-   <FaInstagram className='fill-[#FFFFFF]' size={24} />
-   <FaLinkedin className='fill-[#FFFFFF]' size={24} />
-   <FaXTwitter className='fill-[#FFFFFF]' size={24} />
+   <a href='https://www.instagram.com'><FaInstagram className='fill-[#FFFFFF]' size={24} /></a>
+   <a href='https://www.linkedin.com'><FaLinkedin className='fill-[#FFFFFF]' size={24} /></a>
+   <a href='https://x.com'><FaXTwitter className='fill-[#FFFFFF]' size={24} /></a>
  </div>
  <div><p className='text-[14px] text-[#F2F4F7]'>© 2024 Poschh Tech</p></div>
 
@@ -55,7 +55,7 @@ const FooterX=()=>{
  
  <div className='md:w-[20%] h-[100%] flex flex-col items-start md:h-[80%]'>
    <Button onClick={()=>{window.location.href='https://blog.poschh.com'}}  className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Blog</Button>
-   <Button className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Career</Button>
+   <Button onClick={()=>{window.location.href='/careers'}}  className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Career</Button>
  </div>
  <div className='md:w-[20%] h-[100%] flex flex-col items-start md:h-[80%]'>
    <Button onClick={()=>{window.location.href='/privacy-policy'}} className='md:h-[18%] h-[30%] bg-transparent text-[#F2F4F7] text-[12px] md:text-[14px]' disableRipple>Privacy Policy</Button>

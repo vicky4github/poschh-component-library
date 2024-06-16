@@ -10,10 +10,10 @@ const SecurityPage = () => {
         <IoIosArrowBack style={{ width: '15px', height: '15px', color: '#E5E1E9' }} />
         <span className="text-[#E5E1E9] ml-2">Home</span>
       </Button>
-      <div className="flex flex-col w-full items-center mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-8">Data Security at Poschh</h1>
+      <div className="flex flex-col md:w-full w-[85%]  items-center mx-auto">
+        <h1 className="md:text-3xl text-2xl mt-4 font-bold md:text-center  mb-4 md:mb-8">Data Security at Poschh</h1>
         
-        <p className="mb-6 max-w-4xl">
+        <p className="mb-6 w-[95%] md:max-w-4xl">
           At Poschh, ensuring the security and privacy of our users' data is our top priority. We employ robust security measures and best practices to protect data at every stage, from collection and storage to processing and transmission. Our commitment to data security is integral to our mission of providing advanced analytics and insights while maintaining the highest standards of trust and reliability.
         </p>
         <div className='text-start'>
