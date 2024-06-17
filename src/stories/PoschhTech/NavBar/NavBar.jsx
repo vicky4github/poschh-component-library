@@ -63,6 +63,12 @@ export const NavigationBar = () => {
           <Link className='text-white mt-4' href="/security">
             Security
           </Link>
+          <Link className='text-white mt-4' href="http://13.235.21.219:8501/">
+          Tools (Spectate US Top 10)
+          </Link>
+          <Link className='text-white mt-4' href="http://13.235.21.219:8502/">
+          Tools (Data Visualizatioin)
+          </Link>
         </div>
       )}
     </nav>
